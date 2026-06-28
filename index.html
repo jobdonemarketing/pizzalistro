@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== UPDATED TITLE & META DESCRIPTION (HIGH KEYWORD DENSITY) ========== -->
+    <title>Pizzalist.ro — Cele Mai Bune Pizzerii Verificate din Orașul Tău | Pizza Autentică</title>
+    <meta name="description" content="Descoperă cele mai bune pizzerii verificate anonim din România. Evaluări reale pe 5 criterii: igienă, calitate, promptitudine, consistență și facilități. Găsește pizza autentică în orașul tău.">
+
+    <!-- ========== OPEN GRAPH (SOCIAL SHARING) ========== -->
+    <meta property="og:title" content="Pizzalist.ro — Pizzerii Verificate Anonim" />
+    <meta property="og:description" content="Evaluări reale pe 5 criterii. Fără reclame plătite. Găsește pizza autentică în orașul tău." />
+    <meta property="og:image" content="https://pizzalist.ro/img/og-image.jpg" />
+    <meta property="og:url" content="https://pizzalist.ro" />
+    <meta property="og:type" content="website" />
+
+    <!-- ========== FAVICON ========== -->
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
+    
+    <!-- ========== CANONICAL TAG (Fixes URL canonicalization) ========== -->
+    <link rel="canonical" href="https://pizzalist.ro/" />
+
+    <!-- ========== JSON-LD STRUCTURED DATA ========== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Pizzalist.ro",
+        "url": "https://pizzalist.ro",
+        "description": "Cele mai bune pizzerii verificate anonim din România.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://pizzalist.ro/?city={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- ========== STYLES WITH DEFERRED FONT LOADING (Fixes Render-Blocking) ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </noscript>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ========== GOOGLE ANALYTICS 4 (MEDIUM PRIORITY FIX) ========== -->
+    <!-- Replace G-YOUR_MEASUREMENT_ID with your actual GA4 measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YOUR_MEASUREMENT_ID');
+    </script>
+
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="nav">
+        <a href="/" class="nav-logo">
+            <span class="slice"></span> Pizzalist.ro
+        </a>
+        <a href="#search" class="nav-cta">Caută o Pizzerie</a>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+        <div class="hero-badge">
+            <span class="dot"></span> Verificat Anonim de Auditori Independenți
+        </div>
+        <!-- UPDATED H1 WITH TARGET KEYWORDS -->
+        <h1>Descoperă <span class="highlight">cele mai bune pizzerii</span> verificate din orașul tău</h1>
+        <p class="hero-subtitle">
+            Fiecare pizzeria este evaluată anonim, pe criterii reale: igienă, calitate, promptitudine, consistență și facilități. Fără comentarii pozitive plătite. Fără excepții. Auditorii noștri filmează experiența cu camere ascunse, iar videoclipurile localurilor care câștigă medalia <strong>„Pizzalist Approved”</strong> sunt disponibile publicului.
+        </p>
+
+        <!-- ========== SEARCH ========== -->
+        <div class="search-section" id="search">
+            <div class="search-wrapper">
+                <input
+                    type="text"
+                    class="search-input"
+                    id="searchInput"
+                    placeholder="Introdu codul poștal sau orașul tău..."
+                    aria-label="Caută după cod poștal sau oraș"
+                    autocomplete="on"
+                >
+                <button class="search-btn" id="searchBtn" aria-label="Caută">
+                    🔍 Găsește Pizzerii
+                </button>
+                <button class="search-clear" id="clearBtn" aria-label="Golește câmpul" style="display:none;">✕</button>
+            </div>
+            <p class="search-hint">
+                De exemplu: <span>010011</span> (București), <span>400001</span> (Cluj-Napoca), sau scrie direct <span>Brașov</span>
+            </p>
+            <div class="search-status" id="searchStatus" aria-live="polite"></div>
+        </div>
+
+        <!-- ========== RESULTS CONTAINER ========== -->
+        <div id="results" class="results-grid" style="display:none;"></div>
+        <div id="noResults" class="no-results-msg" style="display:none;">
+            <p>😕 Nu am găsit pizzerii în această zonă.</p>
+            <p class="no-results-cta">
+                <a href="/contact.html">📢 Vino ca auditor și adaugă-le tu!</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="section">
+        <h2 class="section-title">Cum funcționează Pizzalist</h2>
+        <p class="section-subtitle">Transparență totală. Zero recenzii false.</p>
+        <div class="steps">
+            <div class="step-card">
+                <div class="step-num">1</div>
+                <h4>Inspectăm Anonim</h4>
+                <p>Auditori independenți vizitează pizzeriile ca simpli clienți. Comandă, observă, filmează — fără ca personalul să știe.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">2</div>
+                <h4>Verificăm pe 5 Criterii</h4>
+                <p>Igienă (inclusiv personal), calitate ingrediente, promptitudine, consistență și facilități. Aceleași standarde peste tot.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">3</div>
+                <h4>Publicăm Rezultatul</h4>
+                <p>Doar pizzeriile care trec toate cele 5 criterii primesc sigiliul „Pizzalist Approved”. Videoclipurile devin publice. Fără excepții.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CRITERIA ========== -->
+    <section class="section">
+        <h2 class="section-title">Cele 5 Criterii de Evaluare</h2>
+        <p class="section-subtitle">Aceleași standarde stricte pentru fiecare pizzeria din rețea.</p>
+        <div class="criteria-grid">
+            <div class="criteria-card">
+                <div class="criteria-icon">🧼</div>
+                <h4>Igienă</h4>
+                <p>Curățenie în sală, grup sanitar, bucătărie. Igiena personalului: fără miros de transpirație, haine curate, mâini și unghii îngrijite. Igiena personalului de livrare.</p>
+            </div>
+            <div class="criteria-card">
+                <div class="criteria-icon">🍅</div>
+                <h4>Calitate</h4>
+                <p>Ingrediente proaspete, gust autentic, aluat ușor de digerat, coacere atentă. Calitatea produselor complementare (cafea, suc proaspăt stors etc.).</p>
+            </div>
+            <div class="criteria-card">
+                <div class="criteria-icon">⏱️</div>
+                <h4>Promptitudine</h4>
+                <p>Timp rezonabil până la preluarea comenzii, servire rapidă pentru comenzi mici/medii/mari. Timp de livrare pentru comenzi online.</p>
+            </div>
+            <div class="criteria-card">
+                <div class="criteria-icon">🔄</div>
+                <h4>Consistență</h4>
+                <p>Aceeași calitate la vizite repetate (cel puțin o dată la 3 luni). Fără variații majore între audituri.</p>
+            </div>
+            <div class="criteria-card">
+                <div class="criteria-icon">🏠</div>
+                <h4>Facilități</h4>
+                <p>Confort, atmosferă, accesibilitate, mirosuri plăcute în interior, aspect general îngrijit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRUST BANNER ========== -->
+    <div class="trust-banner">
+        <h3>⚠️ Listarea nu se cumpără. Niciodată.</h3>
+        <p>
+            Pizzeriile apar pe Pizzalist cu statutul lor real. Doar cele care trec absolut toate cele 5 criterii, în audite repetate, pot primi sigiliul <strong>„Pizzalist Approved”</strong> — acordat automat pe baza datelor, nu a banilor.
+        </p>
+        <span class="seal-demo">🏅 Pizzalist Approved — Doar pe Merit</span>
+    </div>
+
+    <!-- ========== CTA ========== -->
+    <div class="cta-section">
+        <h3>Ești proprietar de pizzerie?</h3>
+        <p>
+            Revendică-ți pagina și pregătește-te pentru audit. Transparența rămâne totală — nu poți influența rezultatul.
+        </p>
+        <a href="/contact.html" class="btn-large">Contactează-ne pentru Audit</a>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p>© 2026 <strong>Pizzalist.ro</strong> — Toate evaluările sunt independente și neverificabile de către pizzerii înainte de publicare.</p>
+        <p style="margin-top:0.3rem;"><a href="/about.html">Despre noi</a> · <a href="/privacy.html">Confidențialitate</a> · <a href="/contact.html">Contact</a></p>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="js/search.js"></script>
+</body>
+</html>
