@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Main slice shape (crust + cheese) -->
+    <path d="M 10,30 Q 50,10 90,30 L 50,90 Z" fill="#d68c1c"/>
+    <!-- Cheese layer -->
+    <path d="M 15,28 Q 50,12 85,28 L 50,80 Z" fill="#f5c542"/>
+    <!-- Pepperoni 1 -->
+    <circle cx="40" cy="45" r="10" fill="#c0392b"/>
+    <!-- Pepperoni 2 -->
+    <circle cx="65" cy="55" r="8" fill="#c0392b"/>
+    <!-- Pepperoni 3 -->
+    <circle cx="50" cy="70" r="9" fill="#c0392b"/>
+    <!-- Small cheese highlights -->
+    <circle cx="45" cy="40" r="3" fill="#fff" opacity="0.3"/>
+    <circle cx="70" cy="50" r="2" fill="#fff" opacity="0.3"/>
+</svg>
