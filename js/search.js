@@ -28,10 +28,12 @@
 
     // ===== INJECT JSON-LD SCHEMA =====
     function injectSchema(pizzerii, city) {
+        // Remove any previously injected schema
         document.querySelectorAll('script[data-pizzalist-schema]').forEach(el => el.remove());
 
         if (!pizzerii || pizzerii.length === 0) return;
 
+        // Build an ItemList with all pizzerias
         const itemList = {
             "@context": "https://schema.org",
             "@type": "ItemList",
@@ -39,6 +41,7 @@
             "description": `Listă cu pizzerii verificate anonim în ${city}, evaluate pe 5 criterii: igienă, calitate, promptitudine, consistență și facilități.`,
             "numberOfItems": pizzerii.length,
             "itemListElement": pizzerii.map((p, index) => {
+                // Calculate average rating out of 5 (scores are 0-10)
                 const scores = [
                     p.score_igiena || 0,
                     p.score_calitate || 0,
@@ -47,7 +50,7 @@
                     p.score_facilitati || 0
                 ];
                 const avgScore = scores.reduce((a, b) => a + b, 0) / scores.length;
-                const ratingValue = (avgScore / 10) * 5;
+                const ratingValue = (avgScore / 10) * 5; // Convert to 0-5 scale
                 const roundedRating = Math.round(ratingValue * 10) / 10;
 
                 return {
@@ -74,7 +77,7 @@
                             "bestRating": "5",
                             "worstRating": "1"
                         },
-                        "openingHours": "Mo-Su 11:00-22:00"
+                        "openingHours": "Mo-Su 11:00-22:00" // Placeholder – can be updated per pizzeria
                     }
                 };
             })
@@ -101,6 +104,7 @@
                 searchBtn.disabled = false;
                 toggleClearBtn();
 
+                // Check URL param for auto-search
                 const urlParams = new URLSearchParams(window.location.search);
                 const cityParam = urlParams.get('city');
                 if (cityParam) {
@@ -117,7 +121,11 @@
 
     // ===== TOGGLE CLEAR BUTTON =====
     function toggleClearBtn() {
-        clearBtn.style.display = searchInput.value.length > 0 ? 'block' : 'none';
+        if (searchInput.value.length > 0) {
+            clearBtn.style.display = 'block';
+        } else {
+            clearBtn.style.display = 'none';
+        }
     }
 
     // ===== RENDER RESULTS =====
@@ -125,6 +133,7 @@
         resultsContainer.style.display = 'none';
         noResultsContainer.style.display = 'none';
 
+        // Remove old schema
         document.querySelectorAll('script[data-pizzalist-schema]').forEach(el => el.remove());
 
         if (!pizzerii || pizzerii.length === 0) {
@@ -132,19 +141,23 @@
             return;
         }
 
+        // Inject JSON-LD schema for SEO
         injectSchema(pizzerii, query);
 
         resultsContainer.style.display = 'grid';
         resultsContainer.innerHTML = pizzerii.map(p => {
+            // Status badge (golden medallion)
             const statusHtml = p.approved
                 ? '<span class="status-medallion approved"><span class="star">⭐</span> Aprobat Pizzalist</span>'
                 : '<span class="status-medallion pending">⏳ În așteptare</span>';
 
+            // Build actions
             const phone = p.phone ? `<a href="tel:${p.phone}" class="phone-link">📞 Sună</a>` : '';
             const maps = p.address ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address + ', ' + p.city)}" target="_blank" rel="noopener">🗺️ Hartă</a>` : '';
             const website = p.website && p.website !== '#' ? `<a href="${p.website}" target="_blank" rel="noopener">🌐 Site</a>` : '';
             const video = p.video_url && p.video_url !== '#' ? `<a href="${p.video_url}" target="_blank" rel="noopener">🎥 Video</a>` : '';
 
+            // SEO-optimized image alt text
             const altText = `Pizza ${p.name} în ${p.city}`;
 
             return `
@@ -169,7 +182,7 @@
         }).join('');
     }
 
-    // ===== PERFORM SEARCH (FIXED) =====
+    // ===== PERFORM SEARCH =====
     function performSearch() {
         if (isSearching) return;
         if (!pizzeriiData) {
@@ -201,14 +214,17 @@
                 return cityNorm.includes(query) || postalNorm.startsWith(query);
             });
 
+            // Sort: Approved first, then alphabetically
             filtered.sort((a, b) => {
                 if (a.approved && !b.approved) return -1;
                 if (!a.approved && b.approved) return 1;
                 return a.name.localeCompare(b.name);
             });
 
+            // Update URL with city param (use the raw city from the first result, or the raw query)
             let cityForUrl = rawQuery.trim();
             if (filtered.length > 0) {
+                // Use the actual city name from the first result for a cleaner URL
                 cityForUrl = filtered[0].city;
             }
             const slug = createSlug(cityForUrl);
@@ -218,10 +234,9 @@
             renderResults(filtered, cityForUrl);
 
             const count = filtered.length;
-
-            // ✅ SUCCESS MESSAGE – STAYS VISIBLE
             if (count > 0) {
-                searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} pizzerii în această zonă.</p>`;
+searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} pizzerii în această zonă.</p>`;
+                searchStatus.innerHTML = '';
             }
 
             searchBtn.textContent = '🔍 Găsește Pizzerii';
@@ -248,6 +263,7 @@
             noResultsContainer.style.display = 'none';
             searchStatus.innerHTML = '';
             document.querySelectorAll('script[data-pizzalist-schema]').forEach(el => el.remove());
+            // Clean URL – remove ?city param
             const cleanUrl = window.location.pathname;
             window.history.pushState({}, '', cleanUrl);
         }
