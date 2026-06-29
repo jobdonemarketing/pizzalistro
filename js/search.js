@@ -234,8 +234,11 @@
             renderResults(filtered, cityForUrl);
 
             const count = filtered.length;
-            if (count > 0) {
-searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} pizzerii în această zonă.</p>`;
+
+
+if (count > 0) {
+    searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} pizzerii în această zonă.</p>`;
+}
                 searchStatus.innerHTML = '';
             }
 
