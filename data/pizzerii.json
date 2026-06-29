@@ -1273,7 +1273,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Italian pizza serving several sortiments of pizza in Sannicolau Mare."
   },
@@ -1291,7 +1291,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "We visited on Friday night. It was very busy. The stuff was very friendly and they speak English which was very helpful. "
   },
@@ -1309,7 +1309,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A very well-designed restaurant from all points of view. "
   },
@@ -1327,7 +1327,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Romanian and International food choices."
   },
@@ -1345,7 +1345,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Always service with a smile !"
   }
