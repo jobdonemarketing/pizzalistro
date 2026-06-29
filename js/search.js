@@ -235,8 +235,7 @@
 
             const count = filtered.length;
             if (count > 0) {
-                searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} pizzerie${count > 1 ? 'ii' : ''} în această zonă.</p>`;
-            } else {
+searchStatus.innerHTML = `<p style="color:#1e9b6f;">✅ Am găsit ${count} ${count === 1 ? 'pizzerie' : 'pizzerii'} în această zonă.</p>`;            } else {
                 searchStatus.innerHTML = '';
             }
 
