@@ -1331,4 +1331,22 @@
         "video_url": "#",
         "description": "Romanian and International food choices."
     },
+        {
+        "id": "75",
+        "name": "Balkan Food House",
+        "city": "Sannicolau Mare",
+        "postal_code": "305600",
+        "address": "Strada Republicii 1, Sannicolau Mare",
+        "phone": "+40757776577",
+        "website": "https://www.facebook.com/p/Balkan-Food-House-100067158668509/",
+        "image": "/img/pizza1on1.jpg?text=🍕+Mambo+Pizza",
+        "score_igiena": 9,
+        "score_calitate": 10,
+        "score_promptitudine": 8,
+        "score_consistenta": 9,
+        "score_facilitati": 7,
+        "approved": true,
+        "video_url": "#",
+        "description": "Always service with a smile !"
+    },
 ]
