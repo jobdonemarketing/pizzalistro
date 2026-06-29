@@ -1259,7 +1259,7 @@
         "video_url": "#",
         "description": "Open 24/7 (Non-Stop) for pizza cravings any time of the day."
     },
-        {
+    {
         "id": "71",
         "name": "Pizzeria AS",
         "city": "Sannicolau Mare",
@@ -1277,7 +1277,7 @@
         "video_url": "#",
         "description": "Italian pizza serving several sortiments of pizza in Sannicolau Mare."
     },
-        {
+    {
         "id": "72",
         "name": "Mambo Pizza",
         "city": "Sannicolau Mare",
@@ -1295,7 +1295,7 @@
         "video_url": "#",
         "description": "We visited on Friday night. It was very busy. The stuff was very friendly and they speak English which was very helpful. "
     },
-        {
+    {
         "id": "73",
         "name": "Restaurant Moara Veche - Vecchio Mulino",
         "city": "Sannicolau Mare",
@@ -1313,7 +1313,7 @@
         "video_url": "#",
         "description": "A very well-designed restaurant from all points of view. "
     },
-        {
+    {
         "id": "74",
         "name": "Hotel&Restaurant Luna",
         "city": "Sannicolau Mare",
@@ -1331,7 +1331,7 @@
         "video_url": "#",
         "description": "Romanian and International food choices."
     },
-        {
+    {
         "id": "75",
         "name": "Balkan Food House",
         "city": "Sannicolau Mare",
@@ -1339,7 +1339,7 @@
         "address": "Strada Republicii 1, Sannicolau Mare",
         "phone": "+40757776577",
         "website": "https://www.facebook.com/p/Balkan-Food-House-100067158668509/",
-        "image": "/img/pizza1on1.jpg?text=🍕+Mambo+Pizza",
+        "image": "/img/pizza1on1.jpg?text=🍕+Balkan+Pizza",
         "score_igiena": 9,
         "score_calitate": 10,
         "score_promptitudine": 8,
@@ -1348,5 +1348,5 @@
         "approved": true,
         "video_url": "#",
         "description": "Always service with a smile !"
-    },
+    }
 ]
