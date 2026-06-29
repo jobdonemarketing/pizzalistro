@@ -1348,5 +1348,70 @@
     "approved": false,
     "video_url": "#",
     "description": "Always service with a smile !"
-  }
+  },
+  {
+        "id": 76,
+        "nume": "Pizzeria Maschino",
+        "localitate": "Giarmata‑Vii",
+        "adresa": "Strada Înfrățirea 142",
+        "telefon": None,  # nu este disponibil public
+        "observatii": "Acceptă livrare și ridicare personală"
+    },
+    {
+        "id": 77,
+        "nume": "Pizzerie, restaurant Sacalaz",
+        "localitate": "Beregsău Mare",
+        "adresa": "Strada a 5‑a",
+        "telefon": None,  # nu este disponibil public
+        "observatii": "Locuri în aer liber, ridicare personală"
+    },
+    {
+        "id": 78,
+        "nume": "Pizza Veneția",
+        "localitate": "Jimbolia",
+        "adresa": "Republicii, Jimbolia",
+        "telefon": "+40 356 139 008",
+        "site": "pizzeria‑venetia.com"
+    },
+    {
+        "id": 79,
+        "nume": "Pizza Gioco",
+        "localitate": "Chișoda",
+        "adresa": "Strada Caraiman 13",
+        "telefon": "+40 757 136 474",
+        "telefon_alternativ": "+40 765 381 298",
+        "site": "pizzagioco.ro",
+        "email": "office@pizzagioco.ro"
+    },
+    {
+        "id": 80,
+        "nume": "Cofetărie Pizzerie",
+        "localitate": "Margina",
+        "adresa": "Margina 215A",
+        "telefon": "0720 175 165"
+    },
+    {
+        "id": 81,
+        "nume": "Restaurant Pizzerie 'La Givan'",
+        "localitate": "Utvin",
+        "adresa": "Sat Utvin, Nr.378",
+        "telefon": "0256 379 969",
+        "telefon_alternativ": "0733 401 269",
+        "email": "contact@lagivan.ro",
+        "site": "www.lagivan.ro"
+    },
+    {
+        "id": 82,
+        "nume": "Pizzeria Park",
+        "localitate": "Iohanisfeld",
+        "adresa": "Strada Parcului nr. 196‑197",
+        "telefon": "0734 026 603"
+    },
+    {
+        "id": 83,
+        "nume": "De Longa Trio",
+        "localitate": "Știuca",
+        "adresa": "Nr.123, Știuca",
+        "telefon": "0356 408 170"
+    }
 ]
