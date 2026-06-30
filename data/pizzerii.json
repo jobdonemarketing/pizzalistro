@@ -13,7 +13,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": falsee,
     "video_url": "#",
     "description": "Pizza by the slice in the heart of Bucharest. Known for innovative toppings and a cozy, centrally-located spot."
   },
@@ -31,7 +31,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Authentic Italian pizza with handmade focaccia dough. A tiny location run by an Italian owner, serving some of the best pizza in Bucharest."
   },
@@ -49,7 +49,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Family-owned pizzeria with a two-day fermented dough. Known for authentic Neapolitan pizza and a cozy terrace."
   },
@@ -67,7 +67,7 @@
     "score_promptitudine": 9,
     "score_consistenta": 8,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Wood-fired oven pizza with a warm, welcoming ambiance. Famous for their pizza burger and excellent service."
   },
@@ -85,7 +85,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Highly-rated pizza place in downtown Bucharest. Known for their unique quince pizza and passionate approach to pizza-making."
   },
@@ -103,7 +103,7 @@
     "score_promptitudine": 9,
     "score_consistenta": 9,
     "score_facilitati": 9,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Travelers' Choice winner. Known as the best pizza in Cluj-Napoca since 2017. Located in the student neighborhood."
   },
@@ -193,7 +193,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Highly-rated pizzeria with a 4.9 rating on TripAdvisor. Known for delicious pizza and great service."
   },
@@ -283,7 +283,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 9,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Top-rated Italian eatery in the heart of Iași. Known for delicious pizzas, friendly staff, and a charming atmosphere."
   },
@@ -337,7 +337,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 9,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Best pizza in Sibiu, prepared in a traditional Italian wood-fired oven. Located at Hermanns Hotel."
   },
@@ -409,7 +409,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "By far the best pizza in Oradea. Wood-fired pizzas with large portions and a spacious area for kids."
   },
@@ -463,7 +463,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 9,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Exceptional pizza with amazing crust and perfectly balanced toppings. Friendly staff and cozy dining area."
   },
@@ -483,7 +483,7 @@
     "score_facilitati": 8,
     "approved": false,
     "video_url": "#",
-    "description": "Hailed as the best pizza place in Constanța, offering a true taste of Italy with authentic ingredients."
+    "description": "Hailed as the best pizza place in Constanța, offering a false taste of Italy with authentic ingredients."
   },
   {
     "id": "28",
@@ -535,7 +535,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Highly praised for delicious food, friendly and fast service, and a cozy atmosphere. Great pizzas and pasta."
   },
@@ -625,7 +625,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Well-regarded pizza place in Brașov. Known for good quality and friendly service."
   },
@@ -715,7 +715,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 8,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Known for amazing vegan pizza and outstanding pizza dough. Casual restaurant with a beautiful outdoor seating area."
   },
@@ -733,7 +733,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A popular restaurant in Alba Iulia known for its fresh vibe and healthy options."
   },
@@ -751,7 +751,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Open daily from 10:00 to 22:00, offering a variety of authentic pizzas."
   },
@@ -769,7 +769,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Known for authentic Italian pizza."
   },
@@ -787,7 +787,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Famous for authentic Neapolitan pizza in Baia Mare."
   },
@@ -805,7 +805,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Open daily from 10:00. A local favorite for quality pizza."
   },
@@ -823,7 +823,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Offering home delivery services for pizza lovers in Botoșani."
   },
@@ -841,7 +841,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Traditional wood-fired pizza. Delivery available daily from 10:00 to 23:00."
   },
@@ -859,7 +859,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "100% Neapolitan artisan pizza made with passion."
   },
@@ -877,7 +877,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A varied menu featuring delicious pizza options."
   },
@@ -895,7 +895,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A cozy spot in Deva offering both delicious cakes and pizzas."
   },
@@ -913,7 +913,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A popular choice for pizza in Drobeta-Turnu Severin."
   },
@@ -931,7 +931,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Known for its tasty pizzas and active community presence."
   },
@@ -949,7 +949,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Pizza baked in a wood-fired oven, offering an authentic Italian experience."
   },
@@ -967,7 +967,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A delivery/carryout chain offering a wide range of pizzas. Rated 4.40★ with over 467 reviews."
   },
@@ -985,7 +985,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Considered the best pizza in town, made with fresh and quality ingredients."
   },
@@ -1003,7 +1003,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A well-regarded pizzeria in Piatra Neamț."
   },
@@ -1021,7 +1021,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A family-owned business bringing authentic Italian flavors to Pitesti."
   },
@@ -1039,7 +1039,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Fast delivery service. Open daily 10:00–21:50."
   },
@@ -1057,7 +1057,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Open Monday-Thursday 11:00-23:00. A great spot for pizza and pasta."
   },
@@ -1075,7 +1075,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A vibrant culinary gem in Resita, known for its tasty pizzas."
   },
@@ -1093,7 +1093,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Excellent pizza with a very good crust, highly appreciated by locals."
   },
@@ -1111,7 +1111,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "A family-run pizzeria known for fresh ingredients and authentic Italian-style recipes."
   },
@@ -1129,7 +1129,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Highly rated for good pizza, with a solid 4.3★ rating."
   },
@@ -1147,7 +1147,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "One of the best restaurants in Suceava, featuring good food and a cozy terrace."
   },
@@ -1165,7 +1165,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Known as the best wood-fired pizza in Targoviste. Open 10:00-22:00."
   },
@@ -1183,7 +1183,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Available for delivery via Wolt."
   },
@@ -1201,7 +1201,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Online ordering available at www.kingpizza.ro."
   },
@@ -1219,7 +1219,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 8,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Excellent pizza with a perfect crust, a favorite among locals."
   },
@@ -1237,7 +1237,7 @@
     "score_promptitudine": 7,
     "score_consistenta": 7,
     "score_facilitati": 7,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Rated 4.2★, offering a great pizza experience."
   },
@@ -1255,7 +1255,7 @@
     "score_promptitudine": 8,
     "score_consistenta": 7,
     "score_facilitati": 6,
-    "approved": true,
+    "approved": false,
     "video_url": "#",
     "description": "Open 24/7 (Non-Stop) for pizza cravings any time of the day."
   },
@@ -1672,5 +1672,24 @@
     "approved": false,
     "video_url": "#",
     "description": "Restaurant renumit pentru pizza, menționat frecvent ca fiind una dintre cele mai bune opțiuni din oraș (mențiune istorică, actualul Nostalgia)."
+  },
+    {
+    "id": "94",
+    "name": "Pizza Social Club Zano",
+    "city": "Iasi",
+    "postal_code": "700560",
+    "address": "T17, Campus, Bd Tudor Vladimirescu 111, Iasi, România",
+    "phone": "0752931586",
+    "website": "https://zano.com.ro/",
+    "image": "/img/pizza1on1.jpg?text=🍕+Pizza+Zano",
+    "score_igiena": 8,
+    "score_calitate": 8,
+    "score_promptitudine": 8,
+    "score_consistenta": 8,
+    "score_facilitati": 7,
+    "approved": false,
+    "video_url": "#",
+    "description": "Conceptul meniului ZANO by Giovanni Santarpia surprinde esențele autentice italiene în toate preparatele napoletane realizate local."
   }
+  
 ]
