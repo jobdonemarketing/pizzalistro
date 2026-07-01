@@ -1690,6 +1690,24 @@
     "approved": false,
     "video_url": "#",
     "description": "Conceptul meniului ZANO by Giovanni Santarpia surprinde esențele autentice italiene în toate preparatele napoletane realizate local."
+  },
+    {
+    "id": "95",
+    "name": "Luna, Apa si Timpul",
+    "city": "Ortisoara",
+    "postal_code": "307305",
+    "address": "45.97118276401071, 21.163748363205215, 307305, Ortisoara, România",
+    "phone": "0722941158",
+    "website": "",
+    "image": "/img/pizza1on1.jpg?text=🍕+Restaurant+Apa+Luna+Timpul",
+    "score_igiena": 9,
+    "score_calitate": 10,
+    "score_promptitudine": 10,
+    "score_consistenta": 10,
+    "score_facilitati": 10,
+    "approved": false,
+    "video_url": "#",
+    "description": "Unique escape spot, far away from city's rat race. Can't recommend enough."
   }
   
 ]
